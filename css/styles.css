@@ -1,1 +1,84 @@
 /* ini file css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main-header{
+    text-align: center;
+       
+}
+
+body {
+    font-family: 'Arial', ui-serif;
+    background: linear-gradient(to right, #967f7f, #478a5a); /* Background warna hitam dan hitamhijau */
+    text-align: center;
+    padding: 20px;
+}
+
+.konten-left-right{
+    display: flex;
+    gap: 33px;
+    padding: 32px;
+}
+
+form{
+    background-color: darkslategrey;
+    padding: 32px;
+    font-weight: bolder;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 17px;
+    color: antiquewhite;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.submit{
+     background-color: rgb(9, 214, 221);
+}
+.reset{
+    background-color: rgb(228, 243, 13);
+}
+
+.right-konten{
+    text-align: center;
+
+  }
+.result-section{
+    text-align: center;
+    background-color: darkslategrey;
+    color: antiquewhite;
+    padding: 16px;
+
+}
+
+#result-bmi{
+    font-size: xxx-large;
+    font-family: math;
+}
+
+.footer{
+    text-align: center;
+}
