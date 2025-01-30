@@ -12,9 +12,10 @@
        
 }
 
+/* Background warna hitam dan hitamhijau */
 body {
     font-family: 'Arial', ui-serif;
-    background: linear-gradient(to right, #967f7f, #478a5a); /* Background warna hitam dan hitamhijau */
+    background: linear-gradient(to right, #967f7f, #478a5a); 
     text-align: center;
     padding: 20px;
 }
@@ -23,6 +24,11 @@ body {
     display: flex;
     gap: 33px;
     padding: 32px;
+}
+
+.header-kalkulator{
+    color: antiquewhite;
+    padding-bottom: 17px;
 }
 
 form{
@@ -55,6 +61,7 @@ button{
     margin-top: 10px;
 }
 
+
 .submit{
      background-color: rgb(9, 214, 221);
 }
@@ -62,6 +69,21 @@ button{
     background-color: rgb(228, 243, 13);
 }
 
+.header-keunggulan{
+    padding: 16px;
+}
+
+.paragraph-keunggulan1{
+    padding-bottom: 16px;
+}
+
+.paragraph-keunggulan2{
+    padding-bottom: 16px;
+}
+
+.paragraph-keunggulan3{
+    padding-bottom: 16px;
+}
 .right-konten{
     text-align: center;
 
